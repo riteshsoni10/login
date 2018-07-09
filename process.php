@@ -21,6 +21,7 @@ if($flag==0)
 {
    
     echo " Login failed";
+   header('Location: index.html');
 }
  
 ?>
