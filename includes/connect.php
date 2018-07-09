@@ -2,7 +2,7 @@
 
 $server="localhost";
         $database="login";
-        $username="root";
+        $username="student";
         $password="Soni@1995";
         
  if($connect=mysql_connect($server,$username,$password,$database))
@@ -11,7 +11,7 @@ $server="localhost";
  }
  else
      {
-     echo "error";
+     echo "Database connection error";
  }
  
      
