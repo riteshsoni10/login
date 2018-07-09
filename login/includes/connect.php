@@ -2,7 +2,7 @@
 
 $server="localhost";
         $database="login";
-        $username="root";
+        $username="student";
         $password="Soni@1995";
         
  if($connect=mysqli_connect($server,$username,$password,$database))
