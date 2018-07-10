@@ -10,7 +10,7 @@ include("includes/connect.php");
  
  $data=mysqli_fetch_array($res);
    
-     if($data['email']==$email && $data['password']==$pass)
+     if($data['email']==$email && $data['pas']==$pass)
      {
          $flag=1;
        echo " Login sucessful";
